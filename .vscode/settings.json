@@ -1,0 +1,7 @@
+{
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoClosingQuotes": "languageDefined",
+    "workbench.editor.closeOnFileDelete": true
+}

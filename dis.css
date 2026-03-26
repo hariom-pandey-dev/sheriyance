@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html , body{
+    width: 100%;
+    height: 100%;
+
+}
+.parent{
+
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+  
+}
+.side{
+
+    height:120px;
+    width:120px;
+    background-color: aqua;
+}
+.side{
+  color:red ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.scar{
+
+    height: 120px;
+
+    width: 120px;
+    background-color: blueviolet;
+     color:rgb(181, 170, 170) ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    color:red ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height:120px ;
+    width: 120px;
+    background-color: blue;
+
+}

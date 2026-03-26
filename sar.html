@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apple Style Banner</title>
+<style>
+  /* --- Page setup --- */
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #e6e7e8 0%, #f28b39 100%);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+  }
+
+  /* --- Main banner container --- */
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    padding: 3rem 4rem;
+    max-width: 1000px;
+    width: 90%;
+  }
+
+  /* --- Left content (text + button) --- */
+  .content {
+    flex: 1;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0 0 1.2rem 0;
+    font-weight: 600;
+    color: #0b0b0b;
+    letter-spacing: -0.02em;
+  }
+
+  .content p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+
+  .content .btn {
+    display: inline-block;
+    padding: 0.7rem 1.4rem;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 999px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+
+  .content .btn:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+  }
+
+  /* --- Right side (image) --- */
+  .image-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-box img {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid red; /* optional */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  }
+
+  /* --- Responsive (mobile view) --- */
+  @media (max-width: 800px) {
+    .banner {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem;
+    }
+    .content {
+      margin-bottom: 2rem;
+    }
+    .image-box img {
+      width: 80%;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <div class="banner">
+    <div class="content">
+      <h1>A Guided Tour of<br>iPhone 17 Pro, iPhone Air<br>and iPhone 17</h1>
+      <p>Discover the new design, performance, and stunning camera upgrades.</p>
+      <a href="#" class="btn">Watch the film</a>
+    </div>
+    <div class="image-box">
+      <img src="Screenshot 2025-11-05 153714.png" alt="iPhone Image">
+    </div>
+  </div>
+
+</body>
+</html>

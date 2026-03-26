@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width : 100%;
+    height: 100%;
+
+}
+.parent{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(233, 222, 193);
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+
+   
+}
+
+
+.hari1{
+    height: 250px ;
+    width: 200px ;
+    background-color: rgb(255, 253, 249);
+    box-shadow: 5px 10px 30px rgba(56, 49, 49, 0.33);
+    border-radius: 10px
+  
+
+   
+   
+    
+   
+    
+
+}
+.hari1 img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 23%;
+    margin-left: 24%;
+    
+}
+.hari1 h2{
+    text-align: center;
+    font-weight: 200;
+
+}
+.hari1 button{
+    height: 38px;
+    width: 110px;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.172);
+    border-radius: 20px;
+    background-color: rgba(228, 84, 84, 0.749);
+    color: white;
+    font-size: 17px;
+    margin-left: 48px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+.hari1 button:hover{
+    background-color: rgb(94, 193, 255);
+    transition: all 0.3s ease;
+}
+.hari2{
+    height: 250px;
+    width: 200px;
+   background-color: rgb(255, 253, 249);
+   box-shadow: 5px 10px 30px rgba(56, 49, 49, 0.33);
+    border-radius: 10px;
+    
+}
+.hari2 img{
+        height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 23%;
+    margin-left: 24%;
+}
+.hari2 h2{
+    text-align: center;
+    font-weight: 200;
+}
+.hari2 button{
+     height: 38px;
+    width: 110px;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.172);
+    border-radius: 20px;
+    background-color: rgba(228, 84, 84, 0.749);
+    color: white;
+    font-size: 17px;
+    margin-left: 48px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+.hari2 button:hover{
+    background-color: rgb(94, 193, 255);
+    transition: all 0.3s ease;
+    
+}
+.hari3{
+     height: 250px ;
+    width: 200px ;
+    background-color: rgb(255, 253, 249);
+    box-shadow: 5px 10px 30px rgba(56, 49, 49, 0.33);
+    border-radius: 10px
+
+}
+.hari3 img{
+       height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 23%;
+    margin-left: 24%;
+
+}
+.hari3 h2{
+    text-align: center;
+    font-weight: 200;
+}
+.hari3 button{
+     height: 38px;
+    width: 110px;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.172);
+    border-radius: 20px;
+    background-color: rgba(228, 84, 84, 0.749);
+    color: white;
+    font-size: 17px;
+    margin-left: 48px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+.hari3 button:hover{
+    background-color: rgb(94, 193, 255);
+    transition: all 0.3s ease;
+    
+}
+.hari4{
+     height: 250px ;
+    width: 200px ;
+    background-color: rgb(255, 253, 249);
+    box-shadow: 5px 10px 30px rgba(56, 49, 49, 0.33);
+    border-radius: 10px
+
+}
+.hari4 img{
+       height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 23%;
+    margin-left: 24%;
+
+}
+.hari4 h2{
+    text-align: center;
+    font-weight: 200;
+}
+.hari4 button{
+     height: 38px;
+    width: 110px;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.172);
+    border-radius: 20px;
+    background-color: rgba(228, 84, 84, 0.749);
+    color: white;
+    font-size: 17px;
+    margin-left: 48px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+.hari4 button:hover{
+    background-color: rgb(94, 193, 255);
+    transition: all 0.3s ease;
+}
+.hari5{
+         height: 250px ;
+    width: 200px ;
+    background-color: rgb(255, 253, 249);
+    box-shadow: 5px 10px 30px rgba(56, 49, 49, 0.33);
+    border-radius: 10px
+
+}
+.hari5 img{
+       height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 23%;
+    margin-left: 24%;
+
+}
+.hari5 h2{
+    text-align: center;
+    font-weight: 200;
+}
+.hari5 button{
+     height: 38px;
+    width: 110px;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.172);
+    border-radius: 20px;
+    background-color: rgba(228, 84, 84, 0.749);
+    color: white;
+    font-size: 17px;
+    margin-left: 48px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+.hari5 button:hover{
+    background-color: rgb(94, 193, 255);
+    transition: all 0.3s ease;
+}
+.tej h1{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top : 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+

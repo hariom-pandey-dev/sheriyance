@@ -1,0 +1,67 @@
+@font-face {
+    font-family: sher ;
+    src: url(./https://cdn.shopify.com/oxygen-v2/44152/39458/83049/2391600/fonts/Ndot-55.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100% ;
+
+}
+/* /* this is boiler plate  h jo uper wala hai  */
+h1{
+    color: rgb(195, 224, 80);
+    background:black;
+    font-size: 60px;
+    font-family: sher;
+    font-weight: 100;
+    font-style: italic;
+
+}
+
+
+h3{ 
+    color: aqua;
+     font-size: 30px;
+     font-style: oblique;
+     text-align: center;
+     text-decoration: dotted;
+}
+#hari{
+    color:  rgb(125, 114, 114);
+    font-size: 20px;
+    background: red;
+    text-decoration: underline;
+}
+#hero{
+
+   height: 800px;
+   width: 600px;
+   border: 1px solid black;
+   background: #ffcece;
+   text-align: center;
+    
+
+
+
+
+}
+.TIT{
+    color: aqua;
+    font-size: 10px;
+    font-style: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+
+.lion{
+    color: rgb(251, 132, 132);
+    font-size: 10px;
+}
+
+
+
